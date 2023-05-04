@@ -1,0 +1,133 @@
+body{
+    margin: auto;
+}
+
+*{
+    transition: 1s;
+}
+
+/* ---------------- Imagens -----------------------------*/
+
+.logo{
+    height: 10vh;
+    min-height: 30px;
+    margin-right: 20px;
+}
+
+.container-fotos{
+    display: flex;
+    justify-content: center;
+}
+
+.container-item-foto img{
+    width: 10vw;
+}
+
+.container-fotos .container-item-foto{
+    width: 25vw;
+    margin: 3vw;
+    border: 1px solid rgb(189, 188, 188);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container-fotos .container-item-foto > *{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* ----------------------------Carrosel-------------------------------- */
+
+.carousel-item img{
+    background-size: contain;
+}
+
+#carouselExampleDark {
+    width: 30vw;
+    margin: auto;
+}
+
+.carousel-inner{
+    min-height: 80vh;
+}
+
+.carousel-caption{
+    margin-top:30vh;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.container-item-foto img{
+    margin: auto;
+    width: fit-content;
+    max-width: 20vw;
+}
+
+
+/* ---------------------Container titulo Hr ---------------------- */
+
+.container-titulo-hr{
+    margin-left: 5vw;
+}
+
+.hr-item{
+    width: 10vw;
+    border: 3px solid black;
+}
+
+/* ----------------------Container wrap----------------------- */
+
+.container-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    column-count: 3;
+    justify-content: center;
+    width: 90vw;
+}
+
+.iten-container-wrap{
+    display: flex;
+    width: 25vw;
+    height: 50vh;
+    background-color: darkgray;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-foto-anos{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    margin: auto;
+}
+
+.container-foto-anos div img{
+    width: 40vw;
+    margin: 20px;
+}
+
+.container-anos{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-anos > *{
+    margin: 20px;
+}
+
+.container-anos div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-anos div div{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-anos a{
+    width: 10vw;
+}
