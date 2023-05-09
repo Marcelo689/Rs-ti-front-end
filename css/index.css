@@ -42,11 +42,17 @@ body{
 
 .carousel-item img{
     background-size: contain;
+    overflow: scroll;
+    max-height: 80vw;
 }
 
 #carouselExampleDark {
     width: 30vw;
+    max-width: 310px;
     margin: auto;
+    margin-top:20px;
+    border: 2px solid rgb(184, 178, 178);
+    padding: 2px;
 }
 
 .carousel-inner{
@@ -54,11 +60,14 @@ body{
 }
 
 .carousel-caption{
-    margin-top:30vh;
+    margin-bottom: -200px;
     background-color: gray;
     border-radius: 10px;
 }
-
+.carousel-caption h5{
+    color: white;
+    text-shadow: black 2px 2px 0px;
+}
 .container-item-foto img{
     margin: auto;
     width: fit-content;
