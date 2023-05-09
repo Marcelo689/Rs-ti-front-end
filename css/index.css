@@ -140,3 +140,14 @@ body{
 .container-anos a{
     width: 10vw;
 }
+
+
+/*-------------------- Cards ----------------------- */
+
+@media screen and (width < 1000px) {
+    .container-wrap, .div-cards{
+        flex-direction: column;
+    }
+}
+
+
