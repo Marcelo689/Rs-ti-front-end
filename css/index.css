@@ -104,6 +104,46 @@ body{
     margin: 10px;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.iten-container-wrap div{ 
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.iten-container-wrap div p {
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+
+.iten-container-wrap div h1{
+    text-shadow: white 2px 2px 0px;
+}
+.iten-container-wrap .div-img-1{
+    background-image: url(../img/paisagem1.jpg);
+}
+.iten-container-wrap .div-img-2{
+    background-image: url(../img/paisagem2.webp);
+}
+.iten-container-wrap .div-img-3{
+    background-image: url(../img/paisagem3.webp);
+}
+.iten-container-wrap .div-img-4{
+    background-image: url(../img/paisagem1.jpg);
+}
+.iten-container-wrap .div-img-5{
+    background-image: url(../img/paisagem4.jpg);
+}
+.iten-container-wrap .div-img-6{
+    background-image: url(../img/paisagem2.webp);
 }
 
 .container-foto-anos{
@@ -147,6 +187,11 @@ body{
 @media screen and (width < 1000px) {
     .container-wrap, .div-cards{
         flex-direction: column;
+        align-items: center;
+    }
+
+    .div-cards , .container-wrap > *{
+        margin-top:40px;
     }
 }
 
