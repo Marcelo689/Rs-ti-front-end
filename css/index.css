@@ -2,10 +2,6 @@ body{
     margin: auto;
 }
 
-*{
-    transition: 1s;
-}
-
 /* ---------------- Imagens -----------------------------*/
 
 .logo{
@@ -110,7 +106,6 @@ body{
 }
 
 .iten-container-wrap div{ 
-
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -120,8 +115,6 @@ body{
     height: 100%;
     background-size: cover;
 }
-
-
 
 .iten-container-wrap div p {
     color: white;
@@ -133,15 +126,22 @@ body{
 }
 
 .iten-container-wrap .div-img-1{
+    cursor: pointer;
+    background-size: contain;
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    position: absolute;
     background-image: url(../img/paisagem1.jpg);
 }
 
 .iten-container-wrap:hover .div-img-1{
-    opacity: 0.1;
-    background-image: url(../img/paisagem1.jpg);
+    opacity: 0.2;
+    transition: 1s;
 }
 
 .iten-container-wrap .div-img-2{
+    cursor: pointer;
     background-size: contain;
     width: inherit;
     height: inherit;
@@ -151,19 +151,60 @@ body{
 }
 .iten-container-wrap .div-img-2:hover{
     opacity: 0.2;
+    transition: 1s;
 }
 
 .iten-container-wrap .div-img-3{
+    cursor: pointer;
+    background-size: contain;
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    position: absolute;
     background-image: url(../img/paisagem3.webp);
 }
+.iten-container-wrap .div-img-3:hover{
+    opacity: 0.2;
+    transition: 1s;
+}
 .iten-container-wrap .div-img-4{
+    cursor: pointer;
+    background-size: contain;
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    position: absolute;
     background-image: url(../img/paisagem1.jpg);
 }
+.iten-container-wrap .div-img-4:hover{
+    opacity: 0.2;
+    transition: 1s;
+}
 .iten-container-wrap .div-img-5{
+    cursor: pointer;
+    background-size: contain;
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    position: absolute;
     background-image: url(../img/paisagem4.jpg);
 }
+.iten-container-wrap .div-img-5:hover{
+    opacity: 0.2;
+    transition: 1s;
+}
 .iten-container-wrap .div-img-6{
+    cursor: pointer;
+    background-size: contain;
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    position: absolute;
     background-image: url(../img/paisagem2.webp);
+}
+.iten-container-wrap .div-img-6:hover{
+    opacity: 0.2;
+    transition: 1s;
 }
 
 .container-foto-anos{
@@ -216,3 +257,87 @@ body{
 }
 
 
+/* -------------Rodape----------------------- */
+.rodape-container{
+    display: flex;
+    background-color: black;
+    margin-bottom: 5vh;
+}
+
+.container-d-containers > *{
+    padding-right: 2vw;
+    margin-left: 2vw;
+    border-right: 1px solid gray;
+}
+
+.logo-container h2{
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    padding-left:5vw;
+    width: 100%;
+}
+
+.container-redessocias{
+    display: flex;
+    width: 4vw;
+    border: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-redessocias i{
+    width: 70px;
+    margin-right: 20px;
+}
+
+.item-redesocial{
+    margin-left: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.container-d-containers{
+    margin-left: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-novidades{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-novidades > *{
+    margin-top: 10px;
+}
+
+.container-novidades button{
+    width: 50%;
+    background-color: rgb(82, 83, 82);
+    color: white;
+    border-radius:5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.hr-rodape{
+    width: 90vw;
+    margin: auto;
+    border:2px solid rgb(83, 82, 82);
+    margin-bottom: 30px;
+}
+
+.direitos-rodape{
+    display: flex;
+    margin: auto;
+    width: 90vw;
+    justify-content: space-between;
+}
+
+.rodape{
+    background-color: black;
+    color: rgb(182, 178, 178);
+    padding-bottom: 50px;
+}
