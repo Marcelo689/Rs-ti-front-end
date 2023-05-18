@@ -2,6 +2,11 @@ body{
     margin: auto;
 }
 
+a{
+    text-decoration: none;
+    color: gray;
+    display: flex;
+}
 /* ---------------- Imagens -----------------------------*/
 
 .logo{
@@ -247,6 +252,11 @@ body{
     margin-left: 5vw;
     margin-top: 4vw;
 }
+
+.container-contato i{
+    margin-right: 5px;
+}
+
 /*-------------------- Cards ----------------------- */
 
 @media screen and (width < 1000px) {
@@ -291,12 +301,11 @@ body{
 }
 
 .container-redessocias i{
-    width: 70px;
-    margin-right: 20px;
+    width: 50px;
 }
 
 .item-redesocial{
-    margin-left: 30px;
+    margin-left: 20px;
     display: flex;
     align-items: start;
     justify-content: space-between;
