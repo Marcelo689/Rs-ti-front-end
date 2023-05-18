@@ -242,7 +242,11 @@ body{
     width: 10vw;
 }
 
-
+.logo-container img{
+    width: 50px;
+    margin-left: 5vw;
+    margin-top: 4vw;
+}
 /*-------------------- Cards ----------------------- */
 
 @media screen and (width < 1000px) {
@@ -340,4 +344,38 @@ body{
     background-color: black;
     color: rgb(182, 178, 178);
     padding-bottom: 50px;
+}
+
+.hr-rodape-horizontal{
+    display: none;
+}
+
+@media screen and (width < 1000px){
+    .hr-rodape{
+        display: none;
+    }
+
+    .container-d-containers > *{
+        padding-right: 2vw;
+        margin-left: 2vw;
+        border:none;    
+        border-bottom: 1px solid gray ;
+    }
+
+    .container-d-containers{
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        margin: auto;
+    }
+
+    .logo-container{
+        margin: auto;
+        text-align: center;
+    }
+
+    .logo-container h2 {
+        text-align: center;
+        display: block;
+    }
 }
